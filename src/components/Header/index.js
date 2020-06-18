@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { formatNumber } from '../../utils/formatData';
 import css from './styles.module.css';
+
 export default class Header extends Component {
   handleInputChange = (event) => {
     console.log(event.target.value);
@@ -11,9 +12,18 @@ export default class Header extends Component {
     const { countCountries, filter, population } = this.props;
     return (
       <div className={css.flexRow}>
-        <input type="text" value={filter} onChange={this.handleInputChange} /> |{' '}
-        <span>Países: {countCountries}</span> |{' '}
-        <span>População: {formatNumber(population)}</span> |
+        <input
+          placeholder="Filtrar Países"
+          className={css.inputHeader}
+          style={{ minWidth: '100px' }}
+          type="text"
+          value={filter}
+          onChange={this.handleInputChange}
+        />{' '}
+        <span className={css.countries}>| Países: {countCountries}</span>
+        <span className={css.population}>
+          | População: {formatNumber(population)}
+        </span>
       </div>
     );
   }
