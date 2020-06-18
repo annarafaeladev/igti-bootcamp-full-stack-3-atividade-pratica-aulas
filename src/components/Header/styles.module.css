@@ -1,0 +1,9 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#input {
+  color: red;
+}
