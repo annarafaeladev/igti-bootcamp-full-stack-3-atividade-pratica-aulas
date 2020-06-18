@@ -26,3 +26,7 @@ Exercício proposto durante o fluxo de aulas, para colocar em prática os concei
 * git clone https://github.com/Anna18921/bootcamp-igti-atividade-pratica.git
 * yarn install
 * yarn start
+
+![printGitHub](https://user-images.githubusercontent.com/53823948/85027252-17062480-b150-11ea-99e5-f711514f2f6c.PNG)
+
+![printGitHubFilter](https://user-images.githubusercontent.com/53823948/85027266-1a011500-b150-11ea-836f-0ea971b20730.PNG)
